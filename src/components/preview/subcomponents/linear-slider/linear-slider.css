@@ -1,0 +1,32 @@
+:local(.containerStyle) {
+  /* background-color: violet; */
+  margin: 1.0vw;
+  width: 25vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+  position: relative;
+}
+
+:local(.lineStyle) {
+  /* background-color: violet; */
+  display: flex;
+  flex-direction: row;
+  width: 12vw;
+  /* align-items: center;
+  justify-content: center; */
+  position: relative;
+}
+
+:local(.textStyle) {
+  flex: 1;
+  font-size: 1.35vw;
+  line-height: 1.5vw;
+  text-align: center;
+  width: 9vw;
+}
+
+:local(.dot) {
+  background-color: var(--blue);
+}

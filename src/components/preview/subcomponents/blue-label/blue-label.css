@@ -1,0 +1,6 @@
+:local(.labelStyle) {
+  color: var(--blue);
+  font-size: 2.015vw;
+  line-height: 2.1vw;
+  font-weight: 900;
+}

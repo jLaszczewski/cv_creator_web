@@ -1,0 +1,8 @@
+:local(.image) {
+  background-color: white;
+  width: 13.34vw;
+  height: 13.34vw;
+  float: none;
+  object-fit: scale-down;
+  border: var(--border-width) solid var(--blue);
+}

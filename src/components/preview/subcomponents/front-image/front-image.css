@@ -1,0 +1,19 @@
+:local(.imageStyle) {
+  background-color: var(--blue);
+  width: 6.3vw;
+  height: 6.3vw;
+  float: none;
+}
+
+:local(.containerStyle) {
+  background-color: white;
+  position: relative;
+  margin-top: -6.484vw;
+  display: flex;
+  flex-direction: column;
+  width: 7.8vw;
+  height: 7.8vw;
+  border: var(--border-width) solid var(--blue);
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,21 @@
+:local(.containerStyle) {
+  width: 11vw;
+  height: 11vw;
+  /* background-color: violet; */
+  margin: 1.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+:local(.textStyle) {
+  font-size: 1.35vw;
+  line-height: 1.5vw;
+  text-align: center;
+  width: 9vw;
+}
+
+:local(.dot) {
+  background-color: var(--blue);
+}

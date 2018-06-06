@@ -1,0 +1,21 @@
+:local(.containerStyle) {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+:local(.imageStyle) {
+  width: 3vw;
+  height: 3vw;
+  object-fit: scale-down;
+}
+
+:local(.textStyle) {
+    text-decoration: none;
+    color: black;
+    font-size: 1.35vw;
+    line-height: 3.5vw;
+}
+
+:local(.underlineStyle) {
+    text-decoration: underline;
+}

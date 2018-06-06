@@ -1,0 +1,74 @@
+:local(.container) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+:local(.mainLabels) {
+  display: flex;
+  flex-direction: column;
+}
+
+:local(.card1r1) {
+  width: 36.5vw;
+}
+
+:local(.linkStyle) {
+  justify-content: center;
+}
+
+:local(.card2r1) {
+  width: 36.5vw;
+}
+
+:local(.card1r2) {
+  width: 50vw;
+}
+
+:local(.card2r2) {
+  width: 30vw;
+}
+
+:local(.card1r3) {
+  flex: 1;
+}
+
+:local(.card1r3children) {
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+:local(.portfolioTitleStyle) {
+  width: 33.5vw;
+}
+
+:local(.card1r3childrenContainer) {
+  margin: 1.0vw;
+  width: 36.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /* justify-content: center; */
+  position: relative;
+}
+
+:local(.educationChildStyle) {
+  margin-top: 2.5vw;
+}
+
+:local(.educationStyle) {
+  margin: 1.0vw;
+  width: 36.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: center; */
+  position: relative;
+}
+
+:local(.image) {
+  position: relative;
+  margin-top: -6.484vw;
+  margin-right: -6.67vw;
+}

@@ -1,0 +1,16 @@
+:local(.nameStyle) {
+  color: var(--gray);
+  font-size: 2.5vw;
+  line-height: 2.6vw;
+  font-weight: 500;
+  display: flex;
+}
+
+:local(.lastnameStyle) {
+  font-weight: 800;
+  letter-spacing: 0.125vw;
+}
+
+:local(.container) {
+  padding-left: 0.6vw;
+}

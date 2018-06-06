@@ -1,0 +1,14 @@
+:local(.textStyle) {
+  font-weight: 900;
+  letter-spacing: 0.05vw;
+}
+
+:local(.containerStyle) {
+  flex-wrap: wrap;
+  height: fit-content;
+  margin-bottom: 0.75vw;
+}
+
+:local(.flexContainerStyle) {
+  height: fit-content;
+}
